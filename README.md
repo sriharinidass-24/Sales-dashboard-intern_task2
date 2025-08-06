@@ -1,8 +1,7 @@
 # Sales-dashboard-intern_task2
-# Sales Performance Dashboard – 2023
+## Sales Performance Dashboard – 2023
 
-## 📌 Objective
-This project is part of my internship learning on **AI/ML & Data Analytics**.  
+## 📌 Objective  
 The goal is to create a **data visualization dashboard** that tells a clear business story using sales data.
 
 ---
@@ -12,7 +11,7 @@ The goal is to create a **data visualization dashboard** that tells a clear busi
 **Source:** Cleaned version of Task‑1 dataset.
 
 **Key columns used:**
-- `sale_date` – Date of transaction (2023)
+- `sales_date` – Date of transaction (2023)
 - `sales_amount` – Total amount of sales
 - `region` – Sales region (North, South, East, West)
 - `product_category` – Product category (Electronics, Furniture, Clothing, Food)
@@ -21,6 +20,8 @@ The goal is to create a **data visualization dashboard** that tells a clear busi
 ---
 
 ## 🛠 Tools Used
+> I have used **Google Looker Studio** as a free alternative BI tool for this task.  
+> It offers similar features for creating interactive dashboards and storytelling.
 - **Google Looker Studio** – For creating the dashboard and visual storytelling
 - **Python 3.x / Google Colab** – For dataset cleaning in Task‑1
 - **GitHub** – For project submission
@@ -39,11 +40,11 @@ The goal is to create a **data visualization dashboard** that tells a clear busi
 
 3. **Monthly Sales Trend – 2023**  
    - **Type:** Line Chart (Cumulative)  
-   - **Insight:** Total sales increased steadily throughout the year, with strong growth in the final months.
+   - **Insight:** A steady upward trend in total sales is visible, peaking sharply in the later part of 2023.
 
 4. **Top 10 Sales Representatives by Sales**  
    - **Type:** Bar Chart  
-   - **Insight:** Alice and Charlie lead in sales performance, with strong contributions from David and Bob.
+   - **Insight:**  David and Bob lead in sales performance, with significant contribution from Eve, Alice and Charlie.
 
 ---
 
@@ -52,17 +53,3 @@ The goal is to create a **data visualization dashboard** that tells a clear busi
 - `sales_data_cleaned.csv` – Cleaned dataset used for visualization
 - This `README.md` file – Explanation of process and insights
 
----
-
-## 📬 How to View
-1. Download `dashboard.pdf` from this repository  
-2. Or, view the GitHub preview of the file  
-3. Insights are also documented above
-
----
-
-## 📌 Learning Outcome
-This task helped me:
-- Understand the **importance of choosing the right visualization**
-- Improve **data storytelling** with captions and titles
-- Learn to use **Google Looker Studio** for professional dashboards
